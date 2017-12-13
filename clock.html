@@ -1,0 +1,46 @@
+
+<html>
+    <head>
+        <title>Kristian - What time / color is it?</title>
+        <style>
+            /*custom font - Exo*/
+            @import url("https://fonts.googleapis.com/css?family=Exo:100");
+
+            /*basic reset*/
+            * {margin: 0; padding: 0;}
+
+            /*make the body occupy full height*/
+            html, body {height: 100%;background-color:white;}
+
+            #hex {
+                color: white; font: 64px/64px Exo;
+                /*Vertical centering*/
+                position: relative; top: 50%; margin-top: -110px;
+                /*Horizontal centering*/
+                text-align: center;
+            }
+
+            #welcome {
+                color: white; font: 24px Exo;
+                /*Vertical centering*/
+                padding-top:20px;
+                /*Horizontal centering*/
+                text-align: center;
+            }
+
+            #footer {
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+                text-align: center;
+                padding: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="welcome">Hey Kristian!</div>
+        <div id="hex"></div>
+        <div id="footer"><iframe width="450" height="220" src="https://www.youtube-nocookie.com/embed/AQBh9soLSkI?rel=0&amp;controls=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></div>
+    </body>
+    <script src="Clock.js"></script>
+</html>

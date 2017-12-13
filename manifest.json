@@ -1,0 +1,16 @@
+{
+   "chrome_url_overrides": {
+      "newtab": "clock.html"
+   },
+   //"content_security_policy": "script-src 'self' 'sha256-uy/KUevgdZxGaMPWHkCkZ5t7YuuHdSl32cKxokZUcVY='; object-src 'self'",
+   "description": "Discover time as a color everytime you open a new tab.",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "incognito": "split",
+   "manifest_version": 2,
+   "name": "Kristian's: What color is it?",
+   "version": "2.0"
+}
